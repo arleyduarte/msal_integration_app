@@ -1,10 +1,11 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, Button} from 'react-native';
 
 const App: () => React$Node = () => {
   return (
     <View>
       <Text>Hola</Text>
+      <Button title="Login" testID="login-msal" />
     </View>
   );
 };

@@ -5,5 +5,9 @@ exports[`<App /> renders correctly, test using Jest + Enzyme 1`] = `
   <Text>
     Hola
   </Text>
+  <Button
+    testID="login-msal"
+    title="Login"
+  />
 </View>
 `;
